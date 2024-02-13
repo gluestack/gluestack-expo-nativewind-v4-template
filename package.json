@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.1.1",
-    "@gluestack-ui/nativewind-utils": "^0.0.1",
+    "@gluestack-ui/nativewind-utils": "^0.0.3",
     "expo": "~50.0.3",
     "expo-status-bar": "~1.11.1",
     "nativewind": "^4.0.1",
