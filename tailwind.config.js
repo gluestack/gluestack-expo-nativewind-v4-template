@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   // NOTE: Update this to include the paths to all of your component files.
   content: [
     "./App.{js,jsx,ts,tsx}",
@@ -119,6 +120,9 @@ module.exports = {
           800: "var(--color-typography-800)",
           900: "var(--color-typography-900)",
           950: "var(--color-typography-950)",
+          white: "#FFFFFF",
+          gray: "#D4D4D4",
+          black: "#181718",
         },
         outline: {
           0: "var(--color-outline-0)",
@@ -147,11 +151,14 @@ module.exports = {
           800: "var(--color-background-800)",
           900: "var(--color-background-900)",
           950: "var(--color-background-950)",
+          error: "var(--color-background-error)",
+          warning: "var(--color-background-warning)",
+          muted: "var(--color-background-muted)",
+          success: "var(--color-background-success)",
+          info: "var(--color-background-info)",
+          light: "#FBFBFB",
+          dark: "#181719",
         },
-        backgroundError: "var(--color-background-error)",
-        backgroundWarning: "var(--color-background-warning)",
-        backgroundSuccess: "var(--color-background-success)",
-        backgroundMuted: "var(--color-background-muted)",
       },
       fontFamily: {
         heading: undefined,
